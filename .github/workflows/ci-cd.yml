@@ -27,7 +27,7 @@ jobs:
 
       - name: Run flake8 for linting
         run: |
-          flake8 src/ tests/
+          flake8 MLOps_Assignment_M1/src/tests/
 
   test:
     runs-on: ubuntu-latest
@@ -47,8 +47,8 @@ jobs:
 
       - name: Train model
         run: |
-          python src/train.py
+          python MLOps_Assignment_M1/src/train.py
 
       - name: Run tests
         run: |
-          pytest tests/
+          pytest MLOps_Assignment_M1/tests/
