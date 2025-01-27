@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rahul/OneDrive/Desktop/MLOps_Assignment_M1/mlruns/0/8d2d52229b424b689286703828162f04/artifacts
+end_time: 1737906485476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d2d52229b424b689286703828162f04
+run_name: crawling-crab-650
+run_uuid: 8d2d52229b424b689286703828162f04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737906485328
+status: 3
+tags: []
+user_id: rahul

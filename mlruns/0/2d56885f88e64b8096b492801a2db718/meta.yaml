@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rahul/OneDrive/Desktop/MLOps_Assignment_M1/mlruns/0/2d56885f88e64b8096b492801a2db718/artifacts
+end_time: 1737906408429
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d56885f88e64b8096b492801a2db718
+run_name: skittish-donkey-7
+run_uuid: 2d56885f88e64b8096b492801a2db718
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737906408303
+status: 3
+tags: []
+user_id: rahul

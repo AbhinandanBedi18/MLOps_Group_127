@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rahul/OneDrive/Desktop/MLOps_Assignment_M1/mlruns/0/815d722b79e5425a85e4a319de978351/artifacts
+end_time: 1737905597483
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 815d722b79e5425a85e4a319de978351
+run_name: crawling-calf-657
+run_uuid: 815d722b79e5425a85e4a319de978351
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737905597361
+status: 3
+tags: []
+user_id: rahul

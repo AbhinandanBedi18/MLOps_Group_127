@@ -1,8 +1,8 @@
-import joblib  # type: ignore
+import joblib   # type: ignore
 import numpy as np  # type: ignore
 from sklearn.datasets import load_iris  # type: ignore
-from sklearn.model_selection import train_test_split  # type: ignore
-from sklearn.metrics import (  # type: ignore
+from sklearn.model_selection import train_test_split    # type: ignore
+from sklearn.metrics import (   # type: ignore
     accuracy_score,
     precision_score,
     recall_score,
@@ -25,7 +25,7 @@ def test_predict():
     )
 
     # Load the trained model
-    model = joblib.load("../iris_model.pkl")
+    model = joblib.load("iris_model.pkl")
     assert model is not None, "Model should be loaded"
 
     # Test prediction on a single sample
@@ -36,7 +36,7 @@ def test_predict():
     assert isinstance(
         prediction[0], (int, np.integer)
     ), "Prediction should be an integer"
-    assert 0 <= prediction[0] <= 2, "Prediction of valid class (0, 1,or2)"
+    assert 0 <= prediction[0] <= 2, "Prediction of valid class (0, 1, or 2)"
 
     # Test prediction on the entire test set
     y_pred = model.predict(X_test)
@@ -56,7 +56,7 @@ def test_predict():
     print("Confusion Matrix:")
     print(conf_matrix)
 
-    assert accuracy < 1.0, "Accuracy of simpler model less than 1.0"
+    assert accuracy < 1.0, "Accuracy of a simpler model less than 1"
 
 
 if __name__ == "__main__":
