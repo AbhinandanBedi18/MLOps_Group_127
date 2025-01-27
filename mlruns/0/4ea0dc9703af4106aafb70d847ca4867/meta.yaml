@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rahul/OneDrive/Desktop/MLOps_Assignment_M1/mlruns/0/4ea0dc9703af4106aafb70d847ca4867/artifacts
+end_time: 1737816371544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ea0dc9703af4106aafb70d847ca4867
+run_name: Pooja's Experiment
+run_uuid: 4ea0dc9703af4106aafb70d847ca4867
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737816371412
+status: 3
+tags: []
+user_id: rahul

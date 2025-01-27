@@ -19,5 +19,5 @@ if __name__ == "__main__":
     input_data = np.array([[5.1, 3.5, 1.4, 0.2], [6.7, 3.0, 5.2, 2.3]])
 
     # Make predictions
-    predictions = predict("../iris_model.pkl", input_data)
+    predictions = predict("iris_model.pkl", input_data)
     print("Predictions:", predictions)
