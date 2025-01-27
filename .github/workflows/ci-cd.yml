@@ -27,7 +27,7 @@ jobs:
 
       - name: Run flake8 for linting
         run: |
-          flake8 /src/ tests/
+          flake8 src/ tests/
 
   test:
     runs-on: ubuntu-latest
