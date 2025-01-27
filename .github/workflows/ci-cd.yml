@@ -23,11 +23,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirement.txt
 
       - name: Run flake8 for linting
         run: |
-          flake8 MLOps_Assignment_M1/src/ MLOps_Assignment_M1/tests/
+          flake8 src/ tests/
 
   test:
     runs-on: ubuntu-latest
@@ -43,12 +43,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirement.txt
 
       - name: Train model
         run: |
-          python MLOps_Assignment_M1/src/train.py
+          python src/train.py
 
       - name: Run tests
         run: |
-          pytest MLOps_Assignment_M1/tests/
+          pytest tests/
