@@ -25,7 +25,7 @@ def test_predict():
     )
 
     # Load the trained model
-    model = joblib.load("iris_model.pkl")
+    model = joblib.load("../iris_model.pkl")
     assert model is not None, "Model should be loaded"
 
     # Test prediction on a single sample

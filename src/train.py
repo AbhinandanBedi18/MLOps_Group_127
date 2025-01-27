@@ -54,4 +54,4 @@ def train_model(model_path):
 
 
 if __name__ == "__main__":
-    train_model("iris_model.pkl")
+    train_model("../iris_model.pkl")
